@@ -15,7 +15,8 @@ internal class Program
         view.showData(algoritimosEnum.mergeSort, data);
         view.showData(algoritimosEnum.selectionSort, data);
         view.showData(algoritimosEnum.quickSort, data);
-        algoritimosEnum[] algoritmos = { algoritimosEnum.bubbleSort, algoritimosEnum.insertionSort, algoritimosEnum.mergeSort, algoritimosEnum.quickSort, algoritimosEnum.selectionSort };
+        view.showData(algoritimosEnum.TreeSort, data);
+        //algoritimosEnum[] algoritmos = { algoritimosEnum.bubbleSort, algoritimosEnum.insertionSort, algoritimosEnum.mergeSort, algoritimosEnum.quickSort, algoritimosEnum.selectionSort };
 
         //view.showComparation(algoritmos, data);
 
