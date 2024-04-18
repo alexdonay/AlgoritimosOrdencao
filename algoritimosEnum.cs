@@ -7,7 +7,8 @@ public enum algoritimosEnum
     insertionSort,
     mergeSort,
     quickSort,
-    selectionSort
+    selectionSort,
+    TreeSort,
 
 }
 }

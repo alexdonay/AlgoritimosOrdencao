@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritimosOrdencao", "AlgoritimosOrdencao.csproj", "{23E75A78-DFB9-44ED-BF31-651409C5F9D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoritimosOrdencao", "AlgoritimosOrdencao.csproj", "{23E75A78-DFB9-44ED-BF31-651409C5F9D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{19E51B3C-0F64-47FE-8D05-D2716A5F3BA4}"
+	ProjectSection(SolutionItems) = preProject
+		TreeSort.cs = TreeSort.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

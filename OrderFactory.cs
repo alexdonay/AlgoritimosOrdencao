@@ -20,7 +20,9 @@ namespace AlgoritimosOrdencao
                 case (algoritimosEnum.mergeSort): return new MergeSort();
                 case (algoritimosEnum.quickSort): return new QuickSort();
                 case (algoritimosEnum.selectionSort): return new SelectionSort();
-                default: return null;
+                case (algoritimosEnum.TreeSort): return new TreeSort();
+                default: return new TreeSort();
+                
             }
         
         }
